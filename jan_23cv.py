@@ -21,7 +21,7 @@ def gaussian_kernel(size, size_y=None):
     x, y = np.mgrid[-size:size+1, -size_y:size_y+1]
     g = np.exp(-(x**2/float(size)+y**2/float(size_y)))
     return g / g.sum()
- 
+
 ##  load and display an image
 lambo = misc.imread('images/lambo.jpg',flatten=1)
 plt.imshow(lambo,cmap=plt.cm.gray)
@@ -33,10 +33,14 @@ plt.imshow(lambo,cmap=plt.cm.gray)
 #plt.show()
 
 # print out some information
-#print lambo.shape
-#print lambo.dtype
-#print lambo.max()
-#print lambo.min()
+print("shape:")
+print(lambo.shape)
+print("type:")
+print(lambo.dtype)
+print("max:")
+print(lambo.max())
+print("min:")
+print(lambo.min())
 
 # change brightness
 # darker
@@ -44,16 +48,16 @@ plt.imshow(lambo,cmap=plt.cm.gray)
 lambo_dark = lambo-125
 plt.imshow(lambo_dark, vmin = 0, vmax = 128,cmap=plt.cm.gray)
 plt.show()
-misc.imwrite('lambo_dark.png', lambo_dark)
+#misc.imwrite('lambo_dark.png', lambo_dark)
 
 #
 #
 ## create a surface plot of the image
-#x, y = np.ogrid[0:lambo.shape[0], 0:lambo.shape[1]]
-#fig=plt.figure()
-#ax = Axes3D(fig)
-#ax.plot_surface(x,y,lambo,rstride=4, cstride=4, cmap=plt.cm.jet, linewidth=0.2)
-#plt.show()
+x, y = np.ogrid[0:lambo.shape[0], 0:lambo.shape[1]]
+fig=plt.figure()
+ax = Axes3D(fig)
+ax.plot_surface(x,y,lambo,rstride=4, cstride=4, cmap=plt.cm.jet, linewidth=0.2)
+plt.show()
 
 
 # Image convolution
@@ -81,22 +85,22 @@ print(blurred)
 plt.imshow(blurred, cmap=plt.cm.gray)
 plt.show()
 
-# filter_blurred= ndimage.gaussian_filter(blurred,1)
-# alpha = 30
-# sharpened = blurred + alpha * (blurred - filter_blurred)
+filter_blurred= ndimage.gaussian_filter(blurred,1)
+alpha = 30
+sharpened = blurred + alpha * (blurred - filter_blurred)
 # #
 # # plotting3 figures in one subplot
-# plt.figure(figsize=(12, 4))
-# plt.subplot(131)
-# plt.imshow(lambo, cmap=plt.cm.gray, vmin = 0, vmax = 255)
-# plt.subplot(132)
-# plt.imshow(blurred,cmap=plt.cm.gray)
-# plt.axis('off')
-# plt.subplot(133)
-# plt.imshow(sharpened, cmap=plt.cm.gray)
-# plt.axis('off')
+plt.figure(figsize=(12, 4))
+plt.subplot(131)
+plt.imshow(lambo, cmap=plt.cm.gray, vmin = 0, vmax = 255)
+plt.subplot(132)
+plt.imshow(blurred,cmap=plt.cm.gray)
+plt.axis('off')
+plt.subplot(133)
+plt.imshow(sharpened, cmap=plt.cm.gray)
+plt.axis('off')
 
-# plt.show()
+plt.show()
 #
 #
 # #==============================================================================

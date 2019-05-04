@@ -1,0 +1,14 @@
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-dog/puppy-0.jpg 1
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-dog/puppy-1.jpg 1
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-dog/puppy-2.jpg 1
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-dog/puppy-3.jpg 1
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-dog/puppy-4.jpg 1
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-dog/puppy-5.jpg 1
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-dog/puppy-6.jpg 1
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-food/hot-dog.jpg 2
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-food/hotdog-1.jpg 2
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-food/hotdog-octopus.jpg 2
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-food/TK-Blog-Homemade-Hotdog-Buns-21.jpg 2
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-food/Creative-Ideas-to-Serve-Hot-Dogs-4.jpg 2
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-food/f4a8187763ba4d29d5191a63e7c60aa7.jpg 2
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-food/NYC-Hot-Dog.jpg 2

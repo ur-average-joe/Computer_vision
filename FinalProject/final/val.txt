@@ -1,0 +1,4 @@
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-dog/puppy-5.jpg 1
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-dog/puppy-6.jpg 1
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-food/hot-dog.jpg 2
+/Users/kevinfeyjoo/Desktop/Computer_vision/FinalProject/finetune_alexnet_with_tensorflow/dataset/test-food/hotdog-1.jpg 2

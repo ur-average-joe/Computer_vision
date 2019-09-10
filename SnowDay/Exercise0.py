@@ -1,3 +1,11 @@
+""" 
+!/usr/bin/env python
+-*- coding: utf-8 -*-
+
+    @author Kevin
+
+ """
+
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy import fftpack
@@ -20,7 +28,6 @@ plt.show()
 
 # diagonal image
 diag_img = 100*np.identity(256)
-
 
 # compute the FFT
 f = np.fft.fft2(diag_img)
